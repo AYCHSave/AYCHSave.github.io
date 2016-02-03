@@ -1,0 +1,76 @@
+1)Customer- 
+                                1.1)Login page [Service] [Mobile DTH] [About Us] [FAQ] [Apply online(.pdf)] [apply loan(user)]
+                                      
+1.2)after login - photo of user
+(customer already 
+exits)                account info				LOGOUT
+		last translation list
+		Functions-1)Balance enquiry
+			  2)Transfer ->(Inter)-(Intra)NEFT
+			  3)Change ATM pin
+			  4)Mobile DTH
+			  5)loan
+			  6)*Reward points
+                          7)*Close account
+              1.2.1   balance enquiry -  
+                                 2)Transfer ->(Inter)-(Intra)NEFT
+			         3)Change ATM pin
+			         4)Mobile DTH
+			         5)loan
+			         6)*Reward points 
+             1.2.2 Transfer     
+                         Inter ->
+                         intra->
+                         reward points->2% of transaction
+                               1)Balance enquiry
+			       2)Change ATM pin
+			       3)Mobile DTH
+			       4)loan
+			       5)*Reward points
+          
+             1.2.3 
+                   Change ATM Pin-> 
+                                   forgot password->send email verification to gmail otp;
+                                      change pin(old pin ,new pin, conform pin, submit);
+				1)Balance enquiry
+			  2)Transfer ->(Inter)-(Intra)NEFT
+			  3)Mobile DTH
+			  4)loan
+			  5)*Reward points
+             1.2.4 
+                       Mobile DTH
+                                   mobile-> mob->company->rs->submit
+                                   dth->12 digit->company->rs->submit
+
+                          1)Balance enquiry
+			  2)Transfer ->(Inter)-(Intra)NEFT
+			  3)Change ATM pin
+			  4)loan
+			  5)*Reward points
+                           reward points->2% of transaction
+            1.2.5
+                        LOAN INFORMATION
+                              1)education
+                               2)agriculture 
+				3)coorporate
+ 
+                            1)Balance enquiry
+			  2)Transfer ->(Inter)-(Intra)NEFT
+			  3)Change ATM pin
+			  4)Mobile DTH
+			  5)*Reward points
+           1.2.6     reward points
+				reward points->2% of transaction(only read)
+
+
+2. clerk
+        2.1 login
+        after login
+              1)Money collector and new applicant ,depositor
+		2)DD
+		3)Loan
+
+3.Manager
+            login
+               page (detail of bank)		
+	reaction to loan application
