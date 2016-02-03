@@ -11,7 +11,7 @@ exits)                account info				LOGOUT
 			  4)Mobile DTH
 			  5)loan
 			  6)*Reward points
-                          7)*Close account
+                          7)*Close acc.
               1.2.1   balance enquiry -  
                                  2)Transfer ->(Inter)-(Intra)NEFT
 			         3)Change ATM pin
