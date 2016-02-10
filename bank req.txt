@@ -11,12 +11,8 @@ exits)                account info				LOGOUT
 			  4)Mobile DTH
 			  5)loan
 			  6)*Reward points
-<<<<<<< HEAD
                           7)*Close account
-=======
-
->>>>>>> c4f555562b0901f37526ab8df5cc000e3feb4533
-              1.2.1   balance enquiry -  
+              1.2.1   balance enquiry -    
                                  2)Transfer ->(Inter)-(Intra)NEFT
 			         3)Change ATM pin
 			         4)Mobile DTH
