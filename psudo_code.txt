@@ -1,0 +1,77 @@
+login()
+{
+username,password
+while(username,password!=NULL)
+{
+chose your choice =i
+switch(i)
+{
+1.balance_inq balance(user_name,password);
+2.atm change  atm_change(user_name,password);
+3.trans_inq   transaction_inq(user_name,password);
+4.reword     reword(user_name,password);
+5.loan        loan(user_name,password);
+6.transfer    transfer(user_name,password);
+7.logout         logout(uer_name,password);
+}
+}
+}
+ balance(user_name,password)
+ {
+ show balance from table;
+ do you want
+ 1.logout();
+ 2.prev page   login();
+ }
+atm_change(user_name,password)
+{
+1. change-atm-pin change-atm-pin();
+2.forgot  forgot_pin();
+3>prev_page login();
+4. logout  logout();
+}
+forgot_pin(user_name,password)
+{
+enter your phone number ;(send otp to customer)
+write otp
+if(otp==OTP)
+{
+change(user_name,password);
+}
+else
+{
+logout();
+}
+}
+change(username_password)
+{
+new_pin;
+change pin from atm_pin whrere user name = user_name and password == password;
+1. home page  login();
+}
+transaction_inq(user_name,password)
+{
+ select * from transaction_inq;
+}
+ reword(user_name,password)
+ {
+    //for any transaction 5 point
+	update rewords from reword
+ }
+ loan(user_name,password)
+ {}
+transfer(user_name,password)
+{
+  your a/c number(A1)
+  friend a/c number(A2)
+  total amount
+  transfer amount from A1 to A2;
+  update 
+  home();
+}
+ logout(uer_name,password)
+ {
+    user _name==NULL;
+	password==NULL;
+	home();
+ }
