@@ -1,0 +1,4 @@
+Banking System consists of 3 system controls (3 parts):
+1. For Customers(user/guest)
+2. For Clerk-who will be monitoring the transactions and also the requests for loans
+3. For Manager- who will monitor the transactions and give replies for loan request
