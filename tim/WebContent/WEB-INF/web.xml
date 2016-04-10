@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>tim</display-name>
+  
+  
+     <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>tim.RegisterServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+ 
+  <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>tim.LoginServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>Balance</servlet-name>
+        <servlet-class>tim.BalanceServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Balance</servlet-name>
+        <url-pattern>/balance</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Change</servlet-name>
+        <servlet-class>tim.ChangeServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Change</servlet-name>
+        <url-pattern>/change</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Deposit</servlet-name>
+        <servlet-class>tim.DepositServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Deposit</servlet-name>
+        <url-pattern>/deposit</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Dth</servlet-name>
+        <servlet-class>tim.DthServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Dth</servlet-name>
+        <url-pattern>/dth</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Loan</servlet-name>
+        <servlet-class>tim.LoanServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Loan</servlet-name>
+        <url-pattern>/loan</url-pattern>
+    </servlet-mapping>
+   
+    <servlet>
+        <servlet-name>Reword</servlet-name>
+        <servlet-class>tim.RewordServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Reword</servlet-name>
+        <url-pattern>/reword</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Transfer</servlet-name>
+        <servlet-class>tim.TransferServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Transfer</servlet-name>
+        <url-pattern>/transfer</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>With</servlet-name>
+        <servlet-class>tim.WithServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>With</servlet-name>
+        <url-pattern>/with</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+ 
+</web-app>
+  
+  
